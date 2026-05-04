@@ -1,0 +1,52 @@
+1) Install prerequisites (one-time) 
+  - Install Python 3.11/3.12 
+  - Install Google Chrome (recommended) or let Playwright install Chromium 
+ 
+2) Set up the project environment 
+- Open the provided zip folder 
+- Save the ZIP file to your D: drive and extract it
+ 
+ 
+- Open the Command Prompt 
+-      In Command Prompt, navigate to the extracted folder by typing the following command: cd /d 
+D:\test_automation 
+ 
+3) Install the required dependencies (one-time)  
+   - From the current directory in Command Prompt (i.e., D:\test_automation), run the following 
+commands: 
+• pip install -U pip 
+• pip install playwright openpyxl 
+• playwright install 
+ 
+ 
+ 
+4) Record the test cases in the Excel file 
+  -   Open ‘Assignment 1 - Test cases.xlsx’, which can be found in the extracted folder.  
+  - Add the values related to your test data under the following column headers: ‘TC ID’, ‘Input 
+length type’, ‘Input’, and ‘Expected output’. DO NOT enter any values under the ‘Actual 
+output’ and ‘Status’ columns. 
+ 
+ 
+5) Run the Playwright script 
+  -    Go back to the Command Prompt  
+  - From the current directory in Command Prompt (i.e., D:\test_automation), run the following 
+command:  
+• python test_automation.py --excel "test_automation/ Assignment 1 - Test cases.xlsx" --
+url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --
+slow-mo-ms 200 --save-every 1 --keep-open 
+ 
+6) Check results 
+   - Go to the ‘test_automation’ folder  
+ - Reopen the Excel file and verify whether the values automatically recorded under the ‘Actual 
+output’ and ‘Status’ columns are correct. 
+ 
+7) Add additional columns to Excel file 
+     - After completing above review, add the following two columns next to the ‘Status’ column: 
+• 
+Singlish input types covered 
+• 
+Evidence or rationale for the input type covered 
+- Manually fill in the values for these two columns based on your assessment. Refer to the 
+template provided in Appendix 2 of the assignment document for guidance on how to enter 
+the values for the two columns. 
+ 

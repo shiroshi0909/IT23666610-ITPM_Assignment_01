@@ -1,0 +1,402 @@
+[
+  {
+    "ID": "Neg_0001",
+    "Cat": "Question forms",
+    "Len": "M",
+    "Input": "oyage nama mokakda kiyala mata kiyanna puluwanda?",
+    "Exp": "ඔයාගේ නම මොකක්ද කියලා මට කියන්න පුළුවන්ද?",
+    "Rationale": "The overall message is a question"
+  },
+  {
+    "ID": "Neg_0002",
+    "Cat": "Question forms",
+    "Len": "S",
+    "Input": "ehemada wenne?",
+    "Exp": "එහෙමද වෙන්නේ?",
+    "Rationale": "The overall message is a question"
+  },
+  {
+    "ID": "Neg_0003",
+    "Cat": "Command forms",
+    "Len": "M",
+    "Input": "ikmanata wada iwara karala gedara yanna.",
+    "Exp": "ඉක්මනට වැඩ ඉවර කරලා ගෙදර යන්න.",
+    "Rationale": "The statement acts as a direct command"
+  },
+  {
+    "ID": "Neg_0004",
+    "Cat": "Command forms",
+    "Len": "S",
+    "Input": "mata wathura ekak genna",
+    "Exp": "මට වතුර එකක් ගෙන්න",
+    "Rationale": "The statement acts as a direct command"
+  },
+  {
+    "ID": "Neg_0005",
+    "Cat": "Greetings",
+    "Len": "M",
+    "Input": "subha aluth awuruddak wewa yaluwane!",
+    "Exp": "සුභ අලුත් අවුරුද්දක් වේවා යාලුවනේ!",
+    "Rationale": "It is a standard greeting wishing for the new year"
+  },
+  {
+    "ID": "Neg_0006",
+    "Cat": "Greetings",
+    "Len": "M",
+    "Input": "ayubowan sir, kohomada sapa sanipa?",
+    "Exp": "ආයුබෝවන් සර්, කොහොමද සැප සනීප?",
+    "Rationale": "It is a standard greeting using Ayubowan"
+  },
+  {
+    "ID": "Neg_0007",
+    "Cat": "Requests",
+    "Len": "M",
+    "Input": "karunakara mata udawwak karanna",
+    "Exp": "කරුණාකර මට උදව්වක් කරන්න",
+    "Rationale": "It is a polite request asking for help"
+  },
+  {
+    "ID": "Neg_0008",
+    "Cat": "Requests",
+    "Len": "M",
+    "Input": "puluwannam heta udeta katha karanna",
+    "Exp": "පුළුවන්නම් හෙට උදේට කතා කරන්න",
+    "Rationale": "It is a polite request to talk later"
+  },
+  {
+    "ID": "Neg_0009",
+    "Cat": "Responses",
+    "Len": "M",
+    "Input": "ela ela, api balamu idiriyata",
+    "Exp": "එළ එළ, අපි බලමු ඉදිරියට",
+    "Rationale": "It is a casual response to a prior context"
+  },
+  {
+    "ID": "Neg_0010",
+    "Cat": "Responses",
+    "Len": "S",
+    "Input": "ow ow, mama eka karannam",
+    "Exp": "ඔව් ඔව්, මම ඒක කරන්නම්",
+    "Rationale": "It is an affirmative response"
+  },
+  {
+    "ID": "Neg_0011",
+    "Cat": "Repeated Words",
+    "Len": "S",
+    "Input": "ikman ikmanata enna",
+    "Exp": "ඉක්මන් ඉක්මනට එන්න",
+    "Rationale": "The word ikman is repeated for emphasis"
+  },
+  {
+    "ID": "Neg_0012",
+    "Cat": "Repeated Words",
+    "Len": "S",
+    "Input": "tikak tikak rasnai",
+    "Exp": "ටිකක් ටිකක් රස්නෙයි",
+    "Rationale": "The word tikak is repeated"
+  },
+  {
+    "ID": "Neg_0013",
+    "Cat": "Inputs with Punctuation Marks",
+    "Len": "M",
+    "Input": "kattiya koheda inne... apenam naha!",
+    "Exp": "කට්ටිය කොහෙද ඉන්නේ... අපෙනම් නැහැ!",
+    "Rationale": "It uses punctuation such as ... and !"
+  },
+  {
+    "ID": "Neg_0014",
+    "Cat": "Inputs with Punctuation Marks",
+    "Len": "S",
+    "Input": "mokak?? eka wenna baha...",
+    "Exp": "මොකක්?? ඒක වෙන්න බැහැ...",
+    "Rationale": "It uses multiple punctuation marks like ?? and ..."
+  },
+  {
+    "ID": "Neg_0015",
+    "Cat": "Romanization / Spelling Variants",
+    "Len": "S",
+    "Input": "mn oyaat adarei gdk",
+    "Exp": "මං ඔයාට ආදරෙයි ගොඩක්",
+    "Rationale": "The words 'mn', 'oyaat' and 'gdk' are spelling variants"
+  },
+  {
+    "ID": "Neg_0016",
+    "Cat": "Romanization / Spelling Variants",
+    "Len": "M",
+    "Input": "api apee wadak karan idimu",
+    "Exp": "අපි අපේ වැඩක් කරන් ඉඳිමු",
+    "Rationale": "The word 'apee' is a spelling variant of 'ape'"
+  },
+  {
+    "ID": "Neg_0017",
+    "Cat": "Isolated English Word Insertions in Singlish",
+    "Len": "M",
+    "Input": "mama heta morning eke ennam",
+    "Exp": "මම හෙට morning එකේ එන්නම්",
+    "Rationale": "Single English word 'morning' is inserted"
+  },
+  {
+    "ID": "Neg_0018",
+    "Cat": "Isolated English Word Insertions in Singlish",
+    "Len": "M",
+    "Input": "me phone eke battery naha",
+    "Exp": "මේ phone එකේ battery නැහැ",
+    "Rationale": "Single English words 'phone' and 'battery' are inserted"
+  },
+  {
+    "ID": "Neg_0019",
+    "Cat": "Multi-Word English Phrases in Singlish",
+    "Len": "M",
+    "Input": "api all the best kiyala wish karamu",
+    "Exp": "අපි all the best කියලා wish කරමු",
+    "Rationale": "A multi-word English phrase 'all the best' is inserted"
+  },
+  {
+    "ID": "Neg_0020",
+    "Cat": "Multi-Word English Phrases in Singlish",
+    "Len": "S",
+    "Input": "eyaata no idea wage inne",
+    "Exp": "එයාට no idea වගේ ඉන්නේ",
+    "Rationale": "A multi-word English phrase 'no idea' is inserted"
+  },
+  {
+    "ID": "Neg_0021",
+    "Cat": "English Digital Terms in Singlish",
+    "Len": "M",
+    "Input": "oyage router eke password eka dennako",
+    "Exp": "ඔයාගේ router එකේ password එක දෙන්නකෝ",
+    "Rationale": "Input includes digital terms like 'router' and 'password'"
+  },
+  {
+    "ID": "Neg_0022",
+    "Cat": "English Digital Terms in Singlish",
+    "Len": "S",
+    "Input": "link eka click karanna",
+    "Exp": "link එක click කරන්න",
+    "Rationale": "Input includes digital terms like 'link' and 'click'"
+  },
+  {
+    "ID": "Neg_0023",
+    "Cat": "Platform/App Names in Singlish",
+    "Len": "M",
+    "Input": "mata instagram eken msg ekak danna",
+    "Exp": "මට instagram එකෙන් msg එකක් දාන්න",
+    "Rationale": "Input includes platform name 'instagram'"
+  },
+  {
+    "ID": "Neg_0024",
+    "Cat": "Platform/App Names in Singlish",
+    "Len": "S",
+    "Input": "youtube eke video eka baluwa",
+    "Exp": "youtube එකේ video එක බැලුවා",
+    "Rationale": "Input includes platform name 'youtube'"
+  },
+  {
+    "ID": "Neg_0025",
+    "Cat": "English Abbreviations/Acronyms in Singlish",
+    "Len": "S",
+    "Input": "mage CV eka ASAP ewanna",
+    "Exp": "මගේ CV එක ASAP එවන්න",
+    "Rationale": "Input includes abbreviations 'CV' and 'ASAP'"
+  },
+  {
+    "ID": "Neg_0026",
+    "Cat": "English Abbreviations/Acronyms in Singlish",
+    "Len": "S",
+    "Input": "API eka integrate karamu",
+    "Exp": "API එක integrate කරමු",
+    "Rationale": "Input includes abbreviation 'API'"
+  },
+  {
+    "ID": "Neg_0027",
+    "Cat": "English Clipped Forms in Singlish",
+    "Len": "S",
+    "Input": "ape uni eke lab eka hondai",
+    "Exp": "අපේ uni එකේ lab එක හොඳයි",
+    "Rationale": "Input includes clipped words 'uni' and 'lab'"
+  },
+  {
+    "ID": "Neg_0028",
+    "Cat": "English Clipped Forms in Singlish",
+    "Len": "M",
+    "Input": "doc hamba wenna yanna one",
+    "Exp": "doc හම්බ වෙන්න යන්න ඕනේ",
+    "Rationale": "Input includes clipped word 'doc'"
+  },
+  {
+    "ID": "Neg_0029",
+    "Cat": "Place Names Embedded in Singlish",
+    "Len": "M",
+    "Input": "api Nuwara Eliya trip ekak yamu",
+    "Exp": "අපි Nuwara Eliya trip එකක් යමු",
+    "Rationale": "Input includes place name 'Nuwara Eliya'"
+  },
+  {
+    "ID": "Neg_0030",
+    "Cat": "Place Names Embedded in Singlish",
+    "Len": "S",
+    "Input": "Kandy walin ganna puluwan",
+    "Exp": "Kandy වලින් ගන්න පුළුවන්",
+    "Rationale": "Input includes place name 'Kandy'"
+  },
+  {
+    "ID": "Neg_0031",
+    "Cat": "Person Names Embedded in Singlish",
+    "Len": "S",
+    "Input": "Kamal aiyage wada iwarada?",
+    "Exp": "Kamal අයියාගේ වැඩ ඉවරද?",
+    "Rationale": "Input includes person name 'Kamal'"
+  },
+  {
+    "ID": "Neg_0032",
+    "Cat": "Person Names Embedded in Singlish",
+    "Len": "S",
+    "Input": "Nimal saha sunil meet wenna",
+    "Exp": "Nimal සහ sunil meet වෙන්න",
+    "Rationale": "Input includes person names 'Nimal' and 'sunil'"
+  },
+  {
+    "ID": "Neg_0033",
+    "Cat": "Inputs with Numbers and Numeric Suffixes",
+    "Len": "S",
+    "Input": "lamayi 5denekma pass wela",
+    "Exp": "ළමයි 5දෙනෙක්ම pass වෙලා",
+    "Rationale": "Input includes number with suffix '5denekma'"
+  },
+  {
+    "ID": "Neg_0034",
+    "Cat": "Inputs with Numbers and Numeric Suffixes",
+    "Len": "S",
+    "Input": "2nd eka mage",
+    "Exp": "2nd එක මගේ",
+    "Rationale": "Input includes number with suffix '2nd'"
+  },
+  {
+    "ID": "Neg_0035",
+    "Cat": "Inputs with Currency",
+    "Len": "S",
+    "Input": "LKR 500k withara yai",
+    "Exp": "LKR 500ක් විතර යයි",
+    "Rationale": "Input includes currency 'LKR'"
+  },
+  {
+    "ID": "Neg_0036",
+    "Cat": "Inputs with Currency",
+    "Len": "M",
+    "Input": "Rs. 25000 padiyak gannawa",
+    "Exp": "Rs. 25000 පඩියක් ගන්නවා",
+    "Rationale": "Input includes currency 'Rs.'"
+  },
+  {
+    "ID": "Neg_0037",
+    "Cat": "Inputs with Time Formats",
+    "Len": "S",
+    "Input": "heta 10:30am weddi enna",
+    "Exp": "හෙට 10:30am වෙද්දී එන්න",
+    "Rationale": "Input includes time format '10:30am'"
+  },
+  {
+    "ID": "Neg_0038",
+    "Cat": "Inputs with Time Formats",
+    "Len": "M",
+    "Input": "api 1.00pm ta katha karamu",
+    "Exp": "අපි 1.00pm ට කතා කරමු",
+    "Rationale": "Input includes time format '1.00pm'"
+  },
+  {
+    "ID": "Neg_0039",
+    "Cat": "Inputs with Dates",
+    "Len": "S",
+    "Input": "2024-05-12 venida api yamu",
+    "Exp": "2024-05-12 වෙනිදා අපි යමු",
+    "Rationale": "Input includes date format '2024-05-12'"
+  },
+  {
+    "ID": "Neg_0040",
+    "Cat": "Inputs with Dates",
+    "Len": "M",
+    "Input": "May 20 wenakan inna baha",
+    "Exp": "May 20 වෙනකන් ඉන්න බැහැ",
+    "Rationale": "Input includes date format 'May 20'"
+  },
+  {
+    "ID": "Neg_0041",
+    "Cat": "Inputs with Unit of Measurements",
+    "Len": "S",
+    "Input": "eka 500g k ganna",
+    "Exp": "ඒක 500g ක් ගන්න",
+    "Rationale": "Input includes unit of measurement 'g'"
+  },
+  {
+    "ID": "Neg_0042",
+    "Cat": "Inputs with Unit of Measurements",
+    "Len": "M",
+    "Input": "3km withara dura tiyenawa",
+    "Exp": "3km විතර දුර තියෙනවා",
+    "Rationale": "Input includes unit of measurement 'km'"
+  },
+  {
+    "ID": "Neg_0043",
+    "Cat": "Inputs with Slang and Casual Phrasing",
+    "Len": "S",
+    "Input": "patta gathi bro eka",
+    "Exp": "පට්ට ගති bro ඒක",
+    "Rationale": "Input includes slang terms 'patta' and 'bro'"
+  },
+  {
+    "ID": "Neg_0044",
+    "Cat": "Inputs with Slang and Casual Phrasing",
+    "Len": "M",
+    "Input": "ado mara seen eka wune",
+    "Exp": "අඩෝ මාර seen එක වුණේ",
+    "Rationale": "Input includes slang terms 'ado', 'mara' and 'seen'"
+  },
+  {
+    "ID": "Neg_0045",
+    "Cat": "Online Indentifiers in Singlish",
+    "Len": "M",
+    "Input": "mage email eka test@gmail.com",
+    "Exp": "මගේ email එක test@gmail.com",
+    "Rationale": "Input includes an email address"
+  },
+  {
+    "ID": "Neg_0046",
+    "Cat": "Online Indentifiers in Singlish",
+    "Len": "M",
+    "Input": "https://google.com balanna",
+    "Exp": "https://google.com බලන්න",
+    "Rationale": "Input includes a URL"
+  },
+  {
+    "ID": "Neg_0047",
+    "Cat": "Inputs Containing Emojis",
+    "Len": "S",
+    "Input": "maru kathawa 😂",
+    "Exp": "මරු කතාව 😂",
+    "Rationale": "Input includes an emoji 😂"
+  },
+  {
+    "ID": "Neg_0048",
+    "Cat": "Inputs Containing Emojis",
+    "Len": "S",
+    "Input": "mata godak dukai 😢",
+    "Exp": "මට ගොඩක් දුකයි 😢",
+    "Rationale": "Input includes an emoji 😢"
+  },
+  {
+    "ID": "Neg_0049",
+    "Cat": "Question forms",
+    "Len": "S",
+    "Input": "oya koheda dan innee?",
+    "Exp": "ඔයා කොහෙද දැන් ඉන්නේ?",
+    "Rationale": "The overall message is a question"
+  },
+  {
+    "ID": "Neg_0050",
+    "Cat": "Requests",
+    "Len": "S",
+    "Input": "ane pls mata kiyala dennako",
+    "Exp": "අනේ pls මට කියලා දෙන්නකෝ",
+    "Rationale": "It is a polite request"
+  }
+]

@@ -1,0 +1,389 @@
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+Option 1: Transliteration Accuracy Testing (for students familiar with Sinhala) 
+This assessment should be attempted individually. The assessment is worth 18% of the overall marks for the unit. This assignment is designed to evaluate your ability to test a live 
+application, design automation strategies, and analyze its weaknesses in a structured manner. 
+ 
+➢ Objective: 
+• The main objective of this assignment is to assess how accurately the application available at the following link converts chat-style Singlish input into Sinhala output: 
+https://www.pixelssuite.com/chat-translator 
+• Accordingly, you are required to evaluate the correctness of the Chat Sinhala transliteration function by testing it with words, phrases, and sentence structures commonly 
+used in informal Sinhala typing. Note that evaluating the Standard Sinhala transliteration function, backend APIs, and conducting performance, scalability, or security 
+testing are outside the scope of this assignment.  
+ 
+➢ Tasks: 
+• Identify fifty test cases in which the system fails to correctly convert chat-style Singlish into Sinhala. These fifty scenarios must include at least two test cases for each of the 
+twenty-four Singlish input types specified in Appendix 1. The remaining two test cases may represent any of the Singlish input types. Your test cases should not include 
+any of the examples provided in Appendix 1 or Appendix 2. 
+• Automate all identified scenarios using Playwright and record the execution results in the Excel file titled “Assignment 1 - Test cases.” Refer to Appendix 2 for guidance on 
+how to complete the Excel file. The steps for automating the identified scenarios using Playwright are provided in the “Automation Steps - Option 1” document. In addition, 
+the “test_automation” folder contains the files required to run Playwright and generate the results.  
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+➢ Required Files: 
+1. The full Playwright project repository (including all scripts and configuration files), along with the Git repository link provided in a separate text file. The repository should 
+include clear instructions in a README.md on how to install dependencies and run the tests. Ensure that the Git repository is publicly accessible. Repositories that cannot be 
+accessed during marking will not be evaluated. 
+2. The completed Excel file, titled “Assignment 1 - Test cases”  
+Plagiarism Notice: 
+Submitted Excel files will be checked for plagiarism. Any submission with a similarity score greater than 10% will be considered plagiarized, and no marks will be awarded for 
+the assessment. 
+➢ Method of Submission: 
+▪ Rename all files with your registration number. 
+▪ Create a folder with your registration number. 
+▪ Paste all the required files into the folder. 
+▪ Zip the folder. 
+▪ Upload the zipped folder to the ‘Assignment 1 Answer: Option 1’ link available on CourseWeb before 5th May. 
+ 
+ 
+ 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+Appendix 1: Singlish Input Types 
+1) Question forms 
+• 
+oyata kohomada? → ඔයාට ක ාක ාමද? 
+• 
+oya kawadda enna hithan inne? → ඔයා  වද්ද එන්න හිතන් ඉන්කන්?  
+ 
+2) Command forms 
+• 
+Amma kiwwa, wahama enna kiyala. → අම්මා කිව්වා, ව ාම එන්න කියලා. 
+• 
+Mata one mage  potha, karunakara mata eka denna. →මට ඕකන් මකේ ක ාත,  රුණා ර මට එ  කදන්න. 
+ 
+3) Greetings 
+• 
+Ayubovan! Obawa sadarayen apage hotalayata piliganimu! → ආයුක ෝවන්! ඔ ව සාදරකයන් අ කේ ක ෝටලයට පිළිගනිමු!  
+• 
+Obata saha pawule semata subama suba aluth avurudhak veevaa! → ඔ ට ස   වුකේ සැමට සු ම සු  අලුත් අවුරුද්දක් කව්වා! 
+ 
+4) Requests 
+• 
+oyata puluwannam eyata katha karanna. → ඔයාට පුලුවන්නම් එයාට  තා  රන්න. 
+• 
+karunakarala mage wede poddak balanna. →  රුණා රලා මකේ වැකේ ක ාේඩක්  ලන්න.  
+ 
+5) Responses 
+• 
+hari, mama eka karannam. →  රි, මම ඒ   රන්නම්. 
+• 
+Ane, hari aiye. Oyata godak pin. → අනේ,හරි අයිනේ.ඔයාට න ාඩක් පිේ. 
+ 
+6) Repeated Words 
+• 
+Hari hari, mama kohoma hari welawata ennam. → හරි හරි, මම ක ාක ාම  රි කවලාවට එන්නම්.  
+• 
+Chutta chutta kanna, nathnam amaru weyi. → චුට්ට චුට්ට  න්න, නැත්නම් අමාරු කවයි.්   
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+7) Inputs with Punctuation Marks 
+• 
+mama yanava… oyath enavada? 
+• 
+ane! mage potha denna 
+ 
+8) Romanization / Spelling Variants 
+A) Example 1 
+• 
+api ape ratata adrei.     → අපි අකේ රටට ආදරෙයි. 
+• 
+api ape ratata adareyi. → අපි අකේ රටට ආදරෙයි. 
+• 
+api ape ratata adrei.     → අපි අකේ රටට ආදරෙයි. 
+ 
+B) Example 2 
+• 
+man oyat passe katha karannam. → මං ඔයාට පසේරසේ  තා කෙන්නම්. 
+• 
+man oyta passee katha karannm. → මං ඔයාට පසේරසේ  තා කෙන්නම්. 
+• 
+man oyt passe katha krannam.    → මං ඔයාට පසේරසේ  තා කෙන්නම්. 
+ 
+C) Example 3 
+• 
+Passe wenam namk dagnn. →  ස කස රෙනම නමක් දාගන්න.  
+• 
+Passe wenama namak daganna. →  ස කස රෙනම නමක් දාගන්න 
+ 
+D) Example 4 
+• 
+mkakda Sanath aiyee, oyta eyage birthday ekawath mtka ndda. → න ාකක්ද සනත් අයිනේ, ඔයාට එයානේ birthday එකවත්  තක නැද්ද. 
+• 
+mokakda Sanath aiyee, oyata eyage birthday ekawath mataka nedda. → න ාකක්ද සනත් අයිනේ, ඔයාට එයානේ birthday එකවත්  තක නැද්ද. 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+9) Isolated English Word Insertions in Singlish 
+• 
+api ada dinner ganna hotel ekakata yamuda? → අපි අද dinner ගන්න hotel එ  ට යමුද? 
+• 
+Oya dannawada aluthenma release karapu iphone eke price eka. → ඔයා දන්නවද අලුකතන්ම release  රපු iphone එකක් price එ . 
+ 
+10) Multi-Word English Phrases in Singlish 
+• 
+mama ada office awe bus eken nisa feeling very tried. → මම අද office ආකව් bus එක න් නිසා feeling very tried.  
+• 
+api den on the way, will be there shortly. → අපි දැන් on the way, will be there shortly. 
+ 
+11) English Digital Terms in Singlish 
+• 
+oyalage gedara WiFi thiyanawada? → ඔයාලකේ කගදර WiFi තියනවද? 
+• 
+oyage password eka maru karada? → ඔයාකේ password එ  මාරු  රාද? 
+ 
+12) Platform/App Names in Singlish 
+• 
+ape teacher panti karanne Zoom eken. → අකේ teacher  න්ති  රන්කන් Zoom එක න්. 
+• 
+mata WhatsApp message ekak ewanna. → මට WhatsApp message එ ක් එවන්න. 
+ 
+13) English Abbreviations/Acronyms in Singlish  
+• 
+Teacher kiwa ASAP assignment eka ewanna kiyala. → Teacher කිවා ASAP assignment එ  එවන්න කියලා. 
+• 
+mata oyage NIC eka poddak pennanna puluwanda? → මට ඔයාකේ NIC ඒ  ක ාේඩක් ක න්නන්න පුලුවන්ද? 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+14) English Clipped Forms in Singlish 
+• 
+mata heta exam ekak thiyenawa. → මට ක ට exam එ ක් තිකයනවා. 
+• 
+ape ilaga lecture eka lab eke thiyenne. → අකේ ඊලග lecture එ  lab එකක් තිකයන්කන්. 
+ 
+15) Place Names Embedded in Singlish 
+• 
+api trip eka Singapore walata yamuda. → අපි trip එ  Singapore වලට යමුද. 
+• 
+ada hawasata api Havelock City yamuda? → අද  වසට අපි Havelock City යමුද? 
+ 
+16) Person Names Embedded in Singlish 
+• 
+ada match ekedi Dasun supiriyatama gehuwa. → අද match එකක්දී දසුන් සුපිරියටම ගැහුවා. 
+• 
+anura saha sunil dennama National Cricket team ekata therila. → අනුෙ ස  සුනිල් කදන්නම National Cricket team එ ට කත්රිලා. 
+ 
+17) Inputs with Numbers and Numeric Suffixes 
+• 
+Science paper ekata lamayi pas denekma lakunu 100n 100yama aragena. → Science paper එ ට ළමයි  ස කදකනක්ම ලකුණු 100න් 100යම අරකගන. 
+• 
+api trip eke 1st dawas thune hotel eke iddala rest karamu. → අපි trip එකක් 1st දවස තුකන් hotel එකක් ඉඳලා rest  රමු. 
+ 
+18) Inputs with Currency 
+• 
+mata Rs. 2500 denna puluwanda? → මට Rs. 2500 කදන්න පුලුවන්ද? 
+• 
+EUR 3000 kiyanne rupiyal walin kochcharada? → EUR 3000 කියන්කන් රුපියේ වලින් ක ාච්චරද? 
+ 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+19) Inputs with Time Formats  
+• 
+Meeting eka 7:30PM patan ganna kiwwa. → Meeting එ  7:30PM  ටන් ගන්න කිව්වා. 
+• 
+bus eka 12.00noon walata pitath wenawa. → බසේ එක 12.00noon ෙලට පිටත් රෙනො. 
+ 
+20) Inputs with Dates  
+• 
+next meeting eka 2026-02-06ta schedule karanna. → next meeting එක 2026-02-06ට schedule කරේන. 
+• 
+Form eka baradenna February 15 wenakan puluwan. → Form එ   ාරකදන්න February 15 කවන න් පුලුවන්. 
+ 
+21) Inputs with Unit of Measurements 
+• 
+mama kilomitara 3k withara payin giya. → මම කිරලෝමිටෙ 3ක් විතර  යින් ගියා. 
+• 
+e gase usa adi 15k withara wage wenava. →  ඒ ගකස උස අඩි 15ක් විතර වකේ කවනවා. 
+ 
+22) Inputs with Slang and Casual Phrasing 
+• 
+sirawata, elakiri bro. Uba wede thithatama dunna. → සිරාවට, එළකිරි bro. උඹ වැකේ තිතටම දුන්නා. 
+• 
+Uba mara kattak kala me thenata awe kiyala ape set eke hemoma dannawa. → උඹ මාර  ට්ටක්  ාලා කම් තැනට ආකව් කියලා අකේ කසට් එකක්  ැකමෝම දන්නවා. 
+ 
+23) Online Indentifiers in Singlish 
+• 
+mee link eka balanna: https://news.lk → නේ link එක බලේන: https://news.lk 
+• 
+website eka: www.srilankaplace.com kiyalaa dhaanna. → website එක: www.srilankaplace.com කියලා දාේන. 
+• 
+mata me address ekata email ekak evanna: amal234@gmail.com →  ට නේ address එකට email එකක් එවේන: amal234@gmail.com 
+• 
+@Tharindu Ayya oyata meeting eken passe poddak online inna puluwanda? → @Tharindu අයියා ඔයාට meeting එනකේ පසේනසේ නපාඩ්ඩක් online ඉේන පුළුවේද? 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+24) Inputs Containing Emojis 
+• 
+Uta wechcha deyak nane 🥲→ ඌට නවච්ච නදයක් නෑනේ 🥲 
+• 
+U nam pissu yakek 😅 → ඌ නේ පිසේු යනකක් 😅 
+• 
+Mata den balagena idala athi wela thiyenne 😡→  ට දැේ බලාන න ඉදලා ඇති නවලා තිනයේනේ 😡 
+• 
+eya hoda lamayek 🙂→ එයා නහාද ළ නයක් 🙂 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BSc (Hons) in Information Technology 
+Year 3 
+  Assignment 1 
+IT3040 – ITPM 
+ 
+                                                                        Semester 1 
+ 
+ 
+Appendix 2 
+Sample Test Case Template 
+TC ID 
+Input 
+length type 
+Input 
+Expected output 
+Actual output 
+Status 
+Singlish input types covered 
+Evidence or rationale for the input type covered 
+Pos_0001 
+S 
+oyata kohomada? 
+ඔයාට නකානහා ද? 
+ඔයාට නකානහා ද? 
+Pass 
+Question forms 
+Rationale: The overall message is a question 
+Pos_0002 
+M 
+machan mta adha 
+meeting ekee 
+Zoom link eka 
+email ekak 
+vidihata ewanna 
+puluwanda? Please 
+send it before 3pm. 
+Mama office yanna 
+kalin check 
+karanna one. 
+Meeting eke link 
+eka Email karanna 
+amarunam 
+WhatsApp ekak 
+dapan. Thanks! 
+ චේ  ට අද 
+meeting එනක් 
+Zoom link එක 
+email එකක් විදිහට 
+එවේන පුලුවේද? 
+Please send it 
+before 3pm.   
+office යේන කලිේ 
+check කරේන 
+ඕනේ.Meeting 
+එනක් link එක 
+Email කරේන 
+අ ාරුනේ 
+WhatsApp එකක් 
+දාපේ.Thanks! 
+ චේ  ට අද 
+meeting එනක් 
+Zoom link එක 
+email එකක් විදිහට 
+එවේන පුලුවේද? 
+Please send it 
+before 3pm.    
+office යේන කලිේ 
+check කරේන 
+ඕනේ. Meeting 
+එනක් link එක 
+Email කරේන 
+අ ාරුනේ 
+WhatsApp එකක් 
+දාපේ. Thanks! 
+ 
+Pass 
+Question forms 
+Evidence: “machan mta adha meeting ekee Zoom link eka email ekak vidihata ewanna 
+puluwanda?” 
+Requests 
+Evidence: “Please send it before 3pm.” 
+Inputs with punctuation marks 
+Rationale: It uses punctuation such as ?, ., and !   
+Romanization / Spelling Variants 
+Rationale: The word 'එනක්' is written as 'ekee' and 'eke' and the word ‘ ට’ is written as ‘mta’. 
+Isolated English Word Insertions in Singlish Rationale: Single words such as ‘meeting’, ‘office’, ‘check’,  ‘Thanks’ are inserted in between 
+Singlish text 
+Multi-Word English Phrases in Singlish 
+Rationale: Two or more consecutive English words such as “Please send it before 3pm.” is 
+inserted inside the  Singlish input. 
+English Digital Terms in Singlish 
+Rationale: Input includes words such as 'link' and 'email' 
+Platform/App Names in Singlish 
+Rationale: Input includes words such as 'Zoom' and 'WhatsApp' 
+Inputs with Time Formats  
+Rationale: Input includes '3pm' 
+Inputs with Slang and Casual Phrasing 
+Rationale: Input includes 'machan' and 'දාපේ ' 
+ 
+Note: 
+1. The Test Case (TC) IDs of positive test cases should begin with “Pos”, while the IDs of negative test cases should begin with “Neg.”  Therefore, TC IDs of all your fifty 
+negative test cases would begin with “Neg.”   
+2. Input length should fall into one of the following categories: S (≤ 30 characters), M (31–299 characters), or L (300-450 characters).  
