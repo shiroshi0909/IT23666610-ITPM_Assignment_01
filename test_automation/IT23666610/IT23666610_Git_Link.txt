@@ -1,4 +1,2 @@
 GitHub Repository Link:
-[PASTE YOUR GITHUB REPO LINK HERE]
-
-Student Registration Number: IT23666610
+https://github.com/shiroshi0909/IT23666610-ITPM_Assignment_01
